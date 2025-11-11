@@ -1,4 +1,4 @@
-# RFIDAuth
+# ArduinoRFIDAuthConcept
 
 "Authentication" via RFID using a Arduino Uno + RFID-RC522. Uses the concept of door locking/unlocking using a master RFID tag to unlock the door every time and any other RFID tag would lock the door and make it stay locked. A piezo buzzer will make sounds every time a card is recognized.
 
@@ -15,11 +15,11 @@
 
 ## Schematics
 
-![Schematics](schematic.png)
+![Schematics](src/schematics.png)
 
 ## Setup
 
-You may need to change some settings in the ``RFIDAuth.ino`` file according to your needs.
+You may need to change some settings in the ``ArduinoRFIDAuthConcept.ino`` file according to your needs.
 
 Pick your RFID tag or card ID using any reader (you can use NFC Tools on Android if you have a NFC compatible phone), then write it down for later usage.
 
